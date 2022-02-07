@@ -40,3 +40,33 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+/**
+ * insert your code for the project below this comment! \___/
+ *                                                       \_/                                                       
+ */
+
+//images
+
+
+
+//nav
+
+
+
+//top content
+
+
+
+//bottom content
+
+
+
+//contact
+
+
+
+//footers
+
+
+
