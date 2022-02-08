@@ -47,13 +47,19 @@ console.log('project wired!')
  */
 
 //images
-
-
-
+const logoImg = document.querySelector('#logo-img');
+logoImg.src = siteContent.images['logo-img'];
+const ctaImg = document.querySelector('#cta-img');
+ctaImg.src = siteContent.images['cta-img'];
+const midImg = document.querySelector('#middle-img');
+midImg.src = siteContent.images['accent-img'];
 //nav
-
-
-
+const navLinks = document.querySelectorAll('header nav a')
+const navLinkTexts = Object.values(siteContent.nav)
+navLinks.forEach((link, idx) => {
+  link.textContent = navLinkTexts[idx]
+  link.classList.add('italic')
+})
 //top content
 
 
